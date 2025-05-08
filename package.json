@@ -1,0 +1,15 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "server": "node ./src/sockets/socket-server.js",
+    "client": "node ./src/sockets/socket-client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
