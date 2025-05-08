@@ -1,5 +1,10 @@
 import { fork } from 'child_process';
 
+/*
+Uma parada interessante é que consigo falar o arquivo que eu quero que o fork execute
+Diferente do C que """duplica""" todo o processo pai (E é executado da linha do fork em diante)
+*/
+
 const childProcess = fork('./src/processos/processo_02.js');
 
 /*
